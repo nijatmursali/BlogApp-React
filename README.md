@@ -1,5 +1,9 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# Live 
+
+This project is live on Github Pages and you can check it by this [link](https://nijatmursali.github.io/BlogApp-React/)
+
 ## Available Scripts
 
 In the project directory, you can run:
