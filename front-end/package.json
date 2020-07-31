@@ -2,7 +2,7 @@
   "name": "blog-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://nijatmursali.github.io/BlogApp-React",
+  "homepage": "",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
