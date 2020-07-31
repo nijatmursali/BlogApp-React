@@ -14,12 +14,23 @@ const post = mongoose.Schema({
         type: String,
         required: true
     },
+    numofLikes: {
+        type: Number,
+        default: 0
+    },
+    isFeatured: {
+        type: Boolean,
+        default: false
+    },
     category: {
         type: ObjectId,
         ref: "Category"
+    },
+},
+    {
+        timestamps: true
     }
+);
 
-});
-
-
+post.index({"$**": "text"});    
 mongoose.model("Post", post);

@@ -7,13 +7,24 @@ const Category = mongoose.model("Category");
 
 router.get("/categories", (req, res) => {
     Category.find()
-    .then(posts => {
+    .then(categories => {
         res.json({categories})
     })
     .catch(err => {
         console.log(err);
     })
 })
+
+router.get("/category-num", (req, res) => {
+    Category.count({})
+    .then(categories => {
+        res.json({categories})
+    })
+    .catch(err => {
+        console.log(err);
+    })
+})
+
 
 router.post("/new-category", (req, res) => {
     const {name} = req.body;

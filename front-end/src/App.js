@@ -6,24 +6,29 @@ import Single from './screens/Single';
 import ErrorPage from './screens/ErrorPage';
 import Home from './components/Home';
 
+import { Provider } from 'react-redux';
+import { store } from './store';
+
 function App() {
   return (
-    <BrowserRouter>
-      <Switch>
-        <Route exact path="/">
-          <Home />
-        </Route>
-        <Route path="/category">
-          <Category />
-        </Route>
-        <Route path="/single">
-          <Single />
-        </Route>
-        <Route path="*">
-          <ErrorPage />
-        </Route>
-      </Switch>
-    </BrowserRouter>
+    <Provider store={store}>
+      <BrowserRouter>
+        <Switch>
+          <Route exact path="/">
+            <Home />
+          </Route>
+          <Route path="/category">
+            <Category />
+          </Route>
+          <Route path="/single">
+            <Single />
+          </Route>
+          <Route path="*">
+            <ErrorPage />
+          </Route>
+        </Switch>
+      </BrowserRouter>
+    </Provider>
   );
 }
 
