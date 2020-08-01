@@ -1,5 +1,22 @@
 import {createStore} from 'redux';
 import reducer from './reducers/index.js';
+import $ from 'jquery';
+
+
+//get from local 
+function getPosts() {
+    $.ajax({
+        url: "localhost:5000/posts",
+        type: 'GET',
+        dataType: 'json', // added data type
+        success: function(res) {
+            console.log(res);
+        }
+    });
+    
+}
+
+//getPosts();
 
 const initState = {
     posts: [
