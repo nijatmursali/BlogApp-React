@@ -78,9 +78,9 @@ router.get("/recent-posts", (req, res) => {
 
 
 router.post("/new-post", (req, res) => {
-    const { title, description, imgUrl, category, numofLikes, isFeatured } = req.body;
+    const { title, description, imgUrl, category, numofLikes, isFeatured, createdBy } = req.body;
 
-    if (!title || !description || !imgUrl || !category || !numofLikes || !isFeatured) {
+    if (!title || !description || !imgUrl || !category || !numofLikes || !isFeatured || !createdBy) {
         res.json({
             err: "All fields are required"
         });
@@ -93,6 +93,7 @@ router.post("/new-post", (req, res) => {
                 description,
                 imgUrl,
                 numofLikes,
+                createdBy,
                 isFeatured,
                 category: cat
             });

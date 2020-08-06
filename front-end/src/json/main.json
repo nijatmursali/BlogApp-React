@@ -6,7 +6,7 @@
             "_id": "5f2442ce0b8ff41da7ba95f2",
             "title": "post",
             "description": "Wow is this really working",
-            "imgUrl": "well well well",
+            "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/1200px-Image_created_with_a_mobile_phone.png",
             "category": {
                 "_id": "5f24326bce2f5503a567f965",
                 "name": "Politics"
@@ -21,7 +21,7 @@
             "_id": "5f2445700b8ff41da7ba95f3",
             "title": "post2",
             "description": "Wow is this really working",
-            "imgUrl": "well well well",
+            "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/1200px-Image_created_with_a_mobile_phone.png",
             "category": {
                 "_id": "5f24326bce2f5503a567f965",
                 "name": "Politics"
@@ -36,7 +36,7 @@
             "_id": "5f2445750b8ff41da7ba95f4",
             "title": "post1",
             "description": "Wow is this really working",
-            "imgUrl": "well well well",
+            "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/1200px-Image_created_with_a_mobile_phone.png",
             "category": {
                 "_id": "5f24326bce2f5503a567f965",
                 "name": "Politics"
@@ -51,7 +51,7 @@
             "_id": "5f2445790b8ff41da7ba95f5",
             "title": "post3",
             "description": "Wow is this really working",
-            "imgUrl": "well well well",
+            "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/1200px-Image_created_with_a_mobile_phone.png",
             "category": {
                 "_id": "5f24326bce2f5503a567f965",
                 "name": "Politics"
@@ -66,13 +66,29 @@
             "_id": "5f25a6a0b9f9ee3bb155d027",
             "title": "Machine Learning",
             "description": "Let me test this out",
-            "imgUrl": "well well well",
+            "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/1200px-Image_created_with_a_mobile_phone.png",
             "category": {
                 "_id": "5f25a602b9f9ee3bb155d025",
                 "name": "IT"
             },
             "createdAt": "2020-08-01T17:30:08.628Z",
             "updatedAt": "2020-08-01T17:30:08.628Z",
+            "__v": 0
+        },
+        {
+            "numofLikes": 2,
+            "isFeatured": true,
+            "_id": "5f25a8204be2954799d28ce0",
+            "title": "Machine Learning",
+            "description": "Let me test this out",
+            "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/1200px-Image_created_with_a_mobile_phone.png",
+            "createdBy": "Nijat Mursali",
+            "category": {
+                "_id": "5f25a602b9f9ee3bb155d025",
+                "name": "IT"
+            },
+            "createdAt": "2020-08-01T17:36:32.986Z",
+            "updatedAt": "2020-08-01T17:36:32.986Z",
             "__v": 0
         }
     ]

@@ -5,6 +5,7 @@ import Category from './screens/Category';
 import Single from './screens/Single';
 import ErrorPage from './screens/ErrorPage';
 import Home from './components/Home';
+import Contact from './components/Contact';
 
 import { Provider } from 'react-redux';
 import { store } from './store';
@@ -22,6 +23,9 @@ function App() {
           </Route>
           <Route path="/single">
             <Single />
+          </Route>
+          <Route path="/contact">
+            <Contact />
           </Route>
           <Route path="*">
             <ErrorPage />

@@ -10,8 +10,7 @@ const Posts = () => {
 
     const postItems = posts.map((post) => <PostItem post={post} />);
 
-    console.log(posts);
-
+    
     return (
         <>
             <div className="site-section bg-white">

@@ -1,4 +1,8 @@
 import React from 'react';
+import { useSelector, useDispatch } from 'react-redux';
+
+
+//const postItems = posts.map((post) => <Breadcrumbs post={post} />);
 
 const Breadcrumbs = () => {
     return (

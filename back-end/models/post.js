@@ -14,6 +14,10 @@ const post = mongoose.Schema({
         type: String,
         required: true
     },
+    createdBy: {
+        type: String,
+        required: true
+    },
     numofLikes: {
         type: Number,
         default: 0

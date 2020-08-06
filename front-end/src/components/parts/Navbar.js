@@ -29,6 +29,7 @@ const Navbar = () => {
                   <li><Link to="/">Home</Link></li>
                   <li><Link to="/category">Category</Link></li>
                   <li><Link to="/single">Single</Link></li>
+                  <li><Link to="/contact">Contact Us</Link></li>
 
                   <li className="d-none d-lg-inline-block"><Link to="#" className="js-search-toggle"><span className="icon-search"></span></Link></li>
                 </ul>
